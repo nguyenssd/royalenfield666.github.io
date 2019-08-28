@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.img-responsive{width: 100%;}
+.nut{margin:10px 0px; border:solid 0.5px var(--mauxam);padding:5px; font-size:17px; color:var(--mauxam) ;border-radius:0px !important; transition: 0.25s ease;}
+.nut i{margin: 0.2rem;}
+.nut.active{color: rgb(255, 255, 255) !important;background: var(--maudo); border:solid 0.5px var(--maudo) }
+.active{color:var(--maudo);}
+.nut:hover{color:rgba(255, 255, 255, 0.99); border:solid 0.5px var(--maudo); background: var(--maudo)}
+.box2{padding:0px;}
+.item1{padding:10px; position: relative;}
+.gia{position: absolute; top:20px; left:20px;}
+.giacu{text-decoration:line-through; font-weight: 300; color: var(--mauxam);}
+.giahientai{color: var(--maudo);}
+.them{position:absolute; top: 20px; right: 25px; color:var(--mauxam);}
+.them a{padding:2px 5px;}
+.them a:hover{border:#353535 solid 0.3px; padding:2px 5px;}
+.them i:hover{color:#e8482e;}
+.mat{position:absolute; top: 45px; right: 28px; color:var(--mauxam);}
+.mat:hover{color:var(--maudo)}
+.tensp{position:absolute;left:20px; bottom: 20px; color:#e8482e;}
+.tensp1{position:absolute;left:220px; bottom: 20px; color:#e8482e;}
+.timkiemsp{height:auto; width: 100%; border: var(--maudo) solid 0.5px; margin-top:10px; border-radius: 20px 20px 0px 0px;}
+.boloc{height: 40px; width: 100%;line-height:40px; background-color: var(--maudo); border-radius: 20px 20px 0px 0px; color: aliceblue;}
+.formtimkiem{padding:10px;}
+.nuttimkiem{padding:2px 5px; margin-right: 10px; float:right;}
+.tieudetimkiem{padding:10px 0px 0px 10px; }
+.note{padding:0px 0px 0px 40px; font-size:14px;  color:var(--mauxam)}
+.note1{margin: auto;}
+.nut3{height:40px;}
+.nuttimkiemforphone{position:absolute;right:0px; top:10px; padding:3px 2px;}
+.formtimkiemforphone{position:absolute;right:80px; top:7px; padding:3px 2px;}
+@media (max-width:1920px){
+	.item1{font-size:14px}
+	.tensp1{left: 185px;}
+	.timkiemforphone{display:none;}
+	.nuttimkiemforphone{display:none;}
+}
+@media (max-width:1200px){
+	.item1{font-size:14px}
+	.tensp1{left: 155px;}
+	.form-control{width:186px;}
+}
+@media (max-width:992px){
+	.item1{font-size:10px}
+	.tensp1{left: 160px;}
+	.timkiemsp{display:none;}
+	.timkiemforphone{display:block;width:40%}
+	.nuttimkiemforphone{display:block;}
+}
+@media (max-width:768px){
+	.item1{font-size:12px}
+	.tensp1{left: 165px;}
+}
+
+@media (max-width:576px){
+	.item1{font-size:10px}
+	.tensp1{left: 130px;}
+}
