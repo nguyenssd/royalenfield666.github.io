@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.img-responsive{width:100%}
+.banner{position:relative}
+.noidungchinh{height:25%;width:50%;background-color:hsla(0,0%,0%,0.30);color:hsla(0,0%,100%,1.00); position:absolute;bottom:20%;right:0px;}
+.noidungchinh1{margin:20px}
+.noidung1{margin:30px 0px;}
+.noidung2{margin-top:40px;}
+.sp{margin:15px 0px}
+.khongcach{height:100px}
+.noidung{font-family: var(--font1)}
+h5{font-weight:bold;}
+p{font-weight:300;}
+@media (max-width:1200px){
+	.hinh{ padding:100px 0px;}
+	.noidungchinh1{font-size:14px;}
+	.noidung1 h1{font-size: 24px;}
+}
+@media (max-width:992px){
+	.hinh{ padding:100px 0px;}
+	.noidungchinh{height:50%;width:80%;background-color:hsla(0,0%,0%,0.30);color:hsla(0,0%,100%,1.00); position:absolute;right:auto;left:10%;}
+	.noidungchinh1{font-size:14px;}
+	.noidung{font-size: 24px;}
+}
+@media (max-width:768px){
+	.hinh{padding:inherit;}
+	.noidung{font-size: 20px;}
+}
